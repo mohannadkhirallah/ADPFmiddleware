@@ -9,7 +9,7 @@ namespace ADPF.API.Connections
     public static class CRMConnection
     {
         static IOrganizationService _ADPFCRM;
-        static IOrganizationService mutkamlahClientService;
+        static IOrganizationService crm;
         static DateTime serviceExpiryTime;
         static DateTime _serviceProxyCreatedTime;
 
